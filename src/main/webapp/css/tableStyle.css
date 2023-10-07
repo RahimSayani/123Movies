@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: left;
+}
+
+th {
+    background-color: #111;
+}
+
+tr:nth-child(odd) {
+    background-color: #111;
+}
+
+tr:hover {
+    background-color: #333;
+}
